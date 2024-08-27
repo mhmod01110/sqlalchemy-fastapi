@@ -1,0 +1,46 @@
+name: FASTAPI_ENV
+channels:
+  - defaults
+dependencies:
+  - annotated-types=0.6.0=py310haa95532_0
+  - anyio=4.2.0=py310haa95532_0
+  - bzip2=1.0.8=h2bbff1b_6
+  - ca-certificates=2024.7.2=haa95532_0
+  - exceptiongroup=1.2.0=py310haa95532_0
+  - fastapi=0.103.0=py310haa95532_0
+  - greenlet=3.0.1=py310hd77b12b_0
+  - idna=3.7=py310haa95532_0
+  - libffi=3.4.4=hd77b12b_1
+  - openssl=3.0.14=h827c3e9_0
+  - pip=24.2=py310haa95532_0
+  - pydantic=2.5.3=py310haa95532_0
+  - pydantic-core=2.14.6=py310h062c2fa_0
+  - python=3.10.14=he1021f5_1
+  - setuptools=72.1.0=py310haa95532_0
+  - sniffio=1.3.0=py310haa95532_0
+  - sqlalchemy=2.0.30=py310h827c3e9_0
+  - sqlite=3.45.3=h2bbff1b_0
+  - starlette=0.27.0=py310haa95532_0
+  - tk=8.6.14=h0416ee5_0
+  - typing-extensions=4.11.0=py310haa95532_0
+  - typing_extensions=4.11.0=py310haa95532_0
+  - tzdata=2024a=h04d1e81_0
+  - vc=14.40=h2eaa2aa_0
+  - vs2015_runtime=14.40.33807=h98bb1dd_0
+  - wheel=0.43.0=py310haa95532_0
+  - xz=5.4.6=h8cc25b3_1
+  - zlib=1.2.13=h8cc25b3_1
+  - pip:
+      - click==8.1.7
+      - colorama==0.4.6
+      - deprecated==1.2.14
+      - h11==0.14.0
+      - importlib-resources==6.4.4
+      - limits==3.13.0
+      - packaging==24.1
+      - pymysql==1.1.1
+      - python-dotenv==1.0.1
+      - slowapi==0.1.9
+      - uvicorn==0.30.6
+      - wrapt==1.16.0
+prefix: F:\Anaconda\envs\FASTAPI_ENV
