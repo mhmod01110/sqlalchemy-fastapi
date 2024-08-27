@@ -8,8 +8,8 @@ import os
 load_dotenv()
 
 # Get the database URL from the environment variable
-# DATABASE_URL = os.getenv("DATABASE_URL")
-DATABASE_URL = "mysql://avnadmin:AVNS_0K7EcwWjHq22FAEWcoV@mysql-01110-mhmod-01110.h.aivencloud.com:20017/defaultdb?ssl-mode=REQUIRED"
+DATABASE_URL = os.getenv("DATABASE_URL")
+
 engine = create_engine(DATABASE_URL)
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
